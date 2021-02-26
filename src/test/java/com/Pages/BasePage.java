@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.logging.Logger;
 
 public class BasePage {
-    //PageFactory her seferinde init yazmamak icin bunu base page icine koyup diger page;leri extend ediyoruz.
+    //PageFactory her seferinde init yazmamak icin bunu base page icine koyup diger pageleri extend ediyoruz.
 
     BasePage(){
         PageFactory.initElements(Driver.getDriver(), this);

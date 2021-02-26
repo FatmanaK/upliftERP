@@ -25,7 +25,7 @@ public class ConfigurationReader {
 */
   private  static Properties properties=new Properties();
     static {
-        String path = "configuration.properties";
+        String path = "src/configuration.properties";
         try{
             FileInputStream fileInputStream=new FileInputStream(path);
             properties.load(fileInputStream);

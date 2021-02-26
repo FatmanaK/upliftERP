@@ -4,6 +4,7 @@ package com.runner;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"html:target/cucumber-report.html",
@@ -19,7 +20,6 @@ import org.junit.runner.RunWith;
 //  tags="@purchase")
 //bunu run ettikten sonra hard coding i onlemek icin feauture in tag ikoyarak run edince step definitons i parametrize ediyoruz.
 //run ettikten sonra console given dan baslayarak kopyala ve login stepdefinitons a yapistir.
-
-public class cukeRunner {
+  public class cukeRunner {
 
 }

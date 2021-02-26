@@ -1,5 +1,6 @@
 package com.step_definition;
 
+import com.utilities.ConfigurationReader;
 import com.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -11,6 +12,7 @@ public class Hook {
     @Before
     public void setUp(){
         Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
 
